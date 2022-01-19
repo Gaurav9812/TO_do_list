@@ -1,0 +1,110 @@
+html{
+    height: 100vh;
+    background: bisque;
+}
+body{
+    text-align: center;
+}
+#task
+{
+    width: 70%;
+    height: 1.5rem;
+    border: 2px solid lightblue;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+#Myform button{
+    width: 10%;
+    color: blue;
+    height: 1.8rem;
+    border: 2px solid lightblue;
+    background: white;
+    cursor: pointer;
+}
+#List
+{
+    width:81%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.tasks
+{
+    margin-top: 1rem;
+    display: flex;
+    
+    justify-content: space-between;
+    width: 85%;
+}
+
+.tasks input{
+    font-size: 1rem;
+    background: transparent;
+    border: 0;
+    color: black;
+    width: 35%;
+    font-weight: 600;
+    padding: 0.3rem;
+}
+.addBorder
+{
+    border:  2px solid black !important;
+}
+.buttons
+{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.trash-icon
+{
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0;
+    background: white;
+    color: red;
+}
+.edit-icon
+{
+    font-size: 1rem;
+    border: 0;
+    cursor: pointer;
+    background: white;
+    color: blue;
+}
+.save-icon
+{
+    font-size: 1rem;
+    border: 0;
+    cursor: pointer;
+   background: white;
+    color: green;
+}
+#clearItem
+{
+    padding: 0.5rem;
+    background: aliceblue;
+    border: 2px solid gray;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+/* Responsiveness for mobile */
+@media screen and (max-width:450px) {
+    #Myform button {
+        width: 20%;
+    }
+    #List {
+        width: 90%;
+    }
+    .tasks
+    {
+        width: 90%;
+    }
+    .tasks input {
+        width: 50%;
+    }
+    .buttons
+    {
+        width: 30%;
+    }
+
+}
